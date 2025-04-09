@@ -1,21 +1,4 @@
 @import "reset.css";
 @import "card.css";
-
-
-.container-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100px;
-  background-color: #009982;
-}
-
-.footer-span {
-  display: flex;
-  margin-top: 10.5rem;
-  padding-top: 10px;
-  justify-content: center;
-  text-align: center;
-  color: grey;
-}
+@import "nav.css";
+@import "footer.css";
