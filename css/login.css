@@ -1,4 +1,4 @@
-.card-group {
+.login-group {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,9 +6,10 @@
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  padding: 200px 100px;
 }
 
-.card-header {
+.login-header {
   color: #009982;
 }
 
