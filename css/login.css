@@ -6,7 +6,8 @@
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  padding: 200px 100px;
+  margin-top: 10.5rem;
+  padding-top: 10px;
 }
 
 .login-header {
