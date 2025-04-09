@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,11 @@
   <title>Login | Diário do Nordeste</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
   <nav class="container-nav">
-    <a href="/lojadiariodonordeste" title="Home"><img src="/assets/img/logoDN.svg" class="img-logo"></a>
+    <a href="/lojadiariodonordeste" title="Home">
+      <img src="./assets/img/logoDN.svg" class="img-logo"></a>
   </nav>
   <div class="container-body">
     <div class="card-group">
@@ -20,34 +23,34 @@
 
       <section class="card-main">
         <form action="/login" method="POST"></form>
-          <div class="form-group">
-            <label for="email"></label>
-            <div class="input-group">
-              <imput for="email" id="email" name="email" placeholder="E-mail" required="required">
+        <div class="form-group">
+          <label for="email"></label>
+          <div class="input-group">
+            <imput for="email" id="email" name="email" placeholder="E-mail" required="required">
               </input>
-            </div>
           </div>
+        </div>
 
-          <div class="form-group">
-            <label for="password"></label>
-            <div class="input-group">
-              <imput for="password" id="password" name="password" placeholder="Senha" required="required">
+        <div class="form-group">
+          <label for="password"></label>
+          <div class="input-group">
+            <imput for="password" id="password" name="password" placeholder="Senha" required="required">
               </input>
-            </div>
           </div>
+        </div>
 
-          <div class="btn-group">
-            <button type="submit" class="btn">Acessar</button>
-          </div>
+        <div class="btn-group">
+          <button type="submit" class="btn">Acessar</button>
+        </div>
 
-          <div class="helper-group">
-            <div>
-              <a href="/validacao-cadastro=">Já é assinante e não tem login?</a>
-            </div>
-            <div>
-              <a href="/recuperar-senha=">Esqueceu a senha?</a>
-            </div>
+        <div class="helper-group">
+          <div>
+            <a href="/validacao-cadastro=">Já é assinante e não tem login?</a>
           </div>
+          <div>
+            <a href="/recuperar-senha=">Esqueceu a senha?</a>
+          </div>
+        </div>
       </section>
     </div>
 
@@ -56,4 +59,5 @@
     </footer>
   </div>
 </body>
+
 </html>
