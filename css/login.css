@@ -1,6 +1,6 @@
 .container-body {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
 }
@@ -8,17 +8,57 @@
 .login-group {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.85rem;
-  padding: 1rem;
-  width: 300px;
-  height: 400px;
+  margin-top: 1.5rem;
+  width: 350px;
+  height: 430px;
 }
 
 .login-header {
   color: #009982;
-  border-bottom: 0.85rem solid #grey;
-  padding: 0.5rem;
+  padding: 2.5rem;
+  margin-top: -2rem;
+}
+
+.login-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  user-select: none;
+}
+
+.btn{
+  color: #fff;
+  margin-top: 4rem;
+  padding: 0.75rem 6rem;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #009982;
+  border-radius: 0.95rem;
+  cursor: pointer;
+  border-style: none;
+  font-size: 1.25rem;
+}
+
+.helper-group {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  user-select: none;
+  margin-top: 3.5rem;
+}
+
+.helper-group a {
+  color: #009982;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
 }
