@@ -3,6 +3,11 @@
   /* justify-content: center; */
   flex-direction: column;
   align-items: center;
+  background-image: url("../assets/img/fundoBase.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 
 .login-group {
@@ -11,27 +16,39 @@
   /* justify-content: center; */
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.85rem;
+  border-radius: 1.5rem;
   margin-top: 1.5rem;
   width: 350px;
   height: 430px;
+  
 }
 
 .login-header {
   color: #009982;
-  padding: 2.5rem;
+  padding: 2.8rem;
   margin-top: -2rem;
 }
 
 .login-header h1 {
-  font-size: 2.5rem;
+  font-size: 3.2rem;
   font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid darkgray;
 }
 
+.login-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.checkbox-group{
+.input-group {
+}
+
+.checkbox-group {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 1rem;
   user-select: none;
 }
@@ -41,9 +58,10 @@
   justify-content: center;
   margin-top: 1rem;
   user-select: none;
+  align-items: center;
 }
 
-.btn{
+.btn {
   color: #fff;
   margin-top: 4rem;
   padding: 0.75rem 6rem;
@@ -54,6 +72,7 @@
   cursor: pointer;
   border-style: none;
   font-size: 1.25rem;
+  align-items: center;
 }
 
 .helper-group {
@@ -61,7 +80,6 @@
   flex-direction: column;
   padding: 2.5rem;
   user-select: none;
-  margin-top: 3.5rem;
 }
 
 .helper-group a {
