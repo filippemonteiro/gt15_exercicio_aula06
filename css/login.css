@@ -1,26 +1,27 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .container-body {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
   background-image: url("../assets/img/fundoBase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
 .login-group {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 1.5rem;
   margin-top: 1.5rem;
   width: 350px;
   height: 430px;
-  
 }
 
 .login-header {
@@ -31,18 +32,26 @@
 
 .login-header h1 {
   font-size: 3.2rem;
-  font-weight: bold;
   padding-bottom: 10px;
-  border-bottom: 1px solid darkgray;
+  border-bottom: 0.25px solid darkgray;
+  width: 45%;
 }
 
 .login-main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -2rem;
 }
 
-.input-group {
+.input-group input {
+  border: none;
+  border-bottom: 0.25px solid darkgray;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 250px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .checkbox-group {
@@ -50,20 +59,23 @@
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  user-select: none;
+  color: #696969;
+}
+
+.checkbox-group input {
+  margin-right: 0.2rem;
+  cursor: pointer;
 }
 
 .btn-group {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
-  user-select: none;
+  margin-top: 1.5rem;
   align-items: center;
 }
 
 .btn {
   color: #fff;
-  margin-top: 4rem;
   padding: 0.75rem 6rem;
   text-decoration: none;
   font-weight: bold;
@@ -78,8 +90,8 @@
 .helper-group {
   display: flex;
   flex-direction: column;
-  padding: 2.5rem;
-  user-select: none;
+  padding: 3rem;
+  padding-left: 3rem;
 }
 
 .helper-group a {
@@ -87,4 +99,9 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 0.95rem;
+}
+
+.helper-group a:hover {
+  color: #007f6b;
+  text-decoration: underline;
 }
