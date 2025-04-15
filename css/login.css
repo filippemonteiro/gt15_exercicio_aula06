@@ -1,7 +1,9 @@
 .container-body {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background-image: url("../assets/img/fundoBase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
